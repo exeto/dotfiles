@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+FILES=$(find $DOTFILES/templates -mindepth 1)
+
+select template in $(basename $FILES); do
+  cp -i $DOTFILES/templates/$template ./$template
+  break;
+done;
