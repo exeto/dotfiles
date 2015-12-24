@@ -20,6 +20,7 @@ brew install ngrok
 brew install tree
 brew install ssh-copy-id
 brew install dos2unix
+brew install recode
 
 # Remove outdated versions from the cellar.
 brew cleanup
