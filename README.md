@@ -16,6 +16,12 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 $ ~/.dotfiles/brew.sh
 ```
 
+## Install of useful npm packages
+
+```bash
+$ ~/.dotfiles/npm.sh
+```
+
 ## License
 
 [MIT](LICENSE.md) © [Timofey Dergachev](http://exeto.me/)
