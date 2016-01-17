@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "exeto/repo",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "author": {
+    "name": "Timofey Dergachev",
+    "email": "t@exeto.me",
+    "url": "exeto.me"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
