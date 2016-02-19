@@ -9,7 +9,7 @@ alias dm="docker-machine"
 alias hfile="defaults write com.apple.finder AppleShowAllFiles false"
 alias sfile="defaults write com.apple.finder AppleShowAllFiles true"
 
-export EDITOR=mcedit
+export EDITOR="subl -n -w"
 export DOTFILES=$HOME/.dotfiles
 
 # Path

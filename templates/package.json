@@ -6,7 +6,7 @@
   "repository": "exeto/repo",
   "main": "index.js",
   "engines": {
-    "node": ">= 4"
+    "node": ">=4.2.0"
   },
   "author": {
     "name": "Timofey Dergachev",
