@@ -5,6 +5,7 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 plugins=(git docker brew npm pip gem zsh-syntax-highlighting)
 
 # Aliases
+alias npm-exec='PATH=$(npm bin):$PATH'
 alias dm="docker-machine"
 alias hfile="defaults write com.apple.finder AppleShowAllFiles false"
 alias sfile="defaults write com.apple.finder AppleShowAllFiles true"
