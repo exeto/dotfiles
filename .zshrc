@@ -1,6 +1,6 @@
 # Setup ZSH
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME=exeto
+ZSH_THEME=pure
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 plugins=(git docker brew npm pip gem zsh-syntax-highlighting)
 
