@@ -2,16 +2,12 @@
   "name": "",
   "version": "0.1.0",
   "description": "",
-  "license": "MIT",
-  "repository": "exeto/repo",
   "main": "index.js",
+  "repository": "exeto/repo",
+  "author": "Timofey Dergachev <t@exeto.me> (http://exeto.me/)",
+  "license": "MIT",
   "engines": {
     "node": ">=4.2.0"
-  },
-  "author": {
-    "name": "Timofey Dergachev",
-    "email": "t@exeto.me",
-    "url": "exeto.me"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
