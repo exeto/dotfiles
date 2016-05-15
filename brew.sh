@@ -23,7 +23,8 @@ brew install \
   ssh-copy-id \
   dos2unix \
   recode \
-  caddy
+  caddy \
+  siege
 
 # Remove outdated versions from the cellar.
 brew cleanup
