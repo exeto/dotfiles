@@ -5,10 +5,10 @@ curl -fsSL https://goo.gl/k58RkX | sh
 
 export DOTFILES=$HOME/.dotfiles
 
-ln -s $DOTFILES/oh-my-zsh        $HOME/.oh-my-zsh/custom
-ln -s $DOTFILES/.editorconfig    $HOME/.editorconfig
-ln -s $DOTFILES/.gitconfig       $HOME/.gitconfig
-ln -s $DOTFILES/.gitignore       $HOME/.gitignore
-ln -s $DOTFILES/.npmrc           $HOME/.npmrc
-ln -s $DOTFILES/.zshrc           $HOME/.zshrc
-ln -s $DOTFILES/.hushlogin       $HOME/.hushlogin
+ln -si $DOTFILES/oh-my-zsh        $HOME/.oh-my-zsh/custom
+ln -si $DOTFILES/.editorconfig    $HOME/.editorconfig
+ln -si $DOTFILES/.gitconfig       $HOME/.gitconfig
+ln -si $DOTFILES/.gitignore       $HOME/.gitignore
+ln -si $DOTFILES/.npmrc           $HOME/.npmrc
+ln -si $DOTFILES/.zshrc           $HOME/.zshrc
+ln -si $DOTFILES/.hushlogin       $HOME/.hushlogin
