@@ -11,3 +11,4 @@ ln -s $DOTFILES/.gitconfig       $HOME/.gitconfig
 ln -s $DOTFILES/.gitignore       $HOME/.gitignore
 ln -s $DOTFILES/.npmrc           $HOME/.npmrc
 ln -s $DOTFILES/.zshrc           $HOME/.zshrc
+ln -s $DOTFILES/.hushlogin       $HOME/.hushlogin
