@@ -11,10 +11,8 @@ brew install ruby
 # Install other useful binaries.
 brew install homebrew/binary/ngrok2
 brew install node
+brew install go
 brew install git
-brew install docker
-brew install docker-machine
-brew install docker-compose
 brew install mc
 brew install httpie
 brew install tree

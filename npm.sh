@@ -6,6 +6,7 @@ npm install -g \
   yaspeller \
   eslint \
   eslint-config-exeto \
+  eslint-config-exeto-base \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \

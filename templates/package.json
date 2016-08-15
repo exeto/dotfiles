@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "repository": "exeto/repo",
-  "author": "Timofey Dergachev <t@exeto.me> (http://exeto.me/)",
+  "author": "Timofey Dergachev <t@exeto.me> (https://exeto.me/)",
   "license": "MIT",
   "engines": {
     "node": ">=4.2.0"

@@ -24,4 +24,4 @@ $ ~/.dotfiles/npm.sh
 
 ## License
 
-[MIT](LICENSE.md) © [Timofey Dergachev](http://exeto.me/)
+[MIT](LICENSE.md) © [Timofey Dergachev](https://exeto.me/)
