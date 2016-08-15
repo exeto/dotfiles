@@ -20,4 +20,5 @@ npm install -g \
   sortimg \
   tldr \
   node-inspector \
-  ntl
+  ntl \
+  hicat
