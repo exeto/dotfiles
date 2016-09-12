@@ -21,6 +21,7 @@ brew install dos2unix
 brew install recode
 brew install caddy
 brew install siege
+brew install micro
 
 # Remove outdated versions from the cellar.
 brew cleanup
