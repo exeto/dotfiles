@@ -22,6 +22,7 @@ brew install recode
 brew install caddy
 brew install siege
 brew install micro
+brew install jq
 
 # Remove outdated versions from the cellar.
 brew cleanup
