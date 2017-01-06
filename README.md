@@ -16,10 +16,10 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 $ ~/.dotfiles/brew.sh
 ```
 
-## Install of useful npm packages
+## Install of useful node packages
 
 ```bash
-$ ~/.dotfiles/npm.sh
+$ ~/.dotfiles/yarn.sh
 ```
 
 ## License

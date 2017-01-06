@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install of useful packages.
-npm install -g \
+yarn global add \
   a11y \
   yaspeller \
   eslint \
@@ -10,15 +10,13 @@ npm install -g \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
-  babel-eslint \
   stylelint \
   stylelint-config-standard \
   gulp \
   n \
   npm-check-updates \
   pm2 \
-  sortimg \
   tldr \
-  node-inspector \
   ntl \
-  hicat
+  hicat \
+  greenkeeper

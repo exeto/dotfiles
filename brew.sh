@@ -9,8 +9,8 @@ brew install python3
 brew install ruby
 
 # Install other useful binaries.
-brew install homebrew/binary/ngrok2
 brew install node
+brew install yarn
 brew install go
 brew install git
 brew install mc
@@ -23,6 +23,9 @@ brew install caddy
 brew install siege
 brew install micro
 brew install jq
+
+# Install macOS applications
+brew cask install ngrok
 
 # Remove outdated versions from the cellar.
 brew cleanup
