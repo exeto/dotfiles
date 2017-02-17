@@ -11,7 +11,7 @@ alias dc="docker-compose"
 alias hfile="defaults write com.apple.finder AppleShowAllFiles false"
 alias sfile="defaults write com.apple.finder AppleShowAllFiles true"
 
-export EDITOR="subl -n -w"
+export EDITOR="micro"
 export DOTFILES=$HOME/.dotfiles
 export GOPATH=$HOME/.golang
 export GOROOT=/usr/local/opt/go/libexec
