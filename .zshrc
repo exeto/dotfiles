@@ -5,7 +5,6 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 plugins=(git docker brew npm pip gem zsh-syntax-highlighting)
 
 # Aliases
-alias npm-exec='PATH=$(npm bin):$PATH'
 alias dm="docker-machine"
 alias dc="docker-compose"
 alias rn="react-native"
