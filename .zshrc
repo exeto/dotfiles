@@ -13,7 +13,7 @@ alias sfile="defaults write com.apple.finder AppleShowAllFiles true"
 
 export EDITOR="micro"
 export DOTFILES=$HOME/.dotfiles
-export GOPATH=$HOME/.golang
+export GOPATH=$HOME/.go
 export GOROOT=/usr/local/opt/go/libexec
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 
