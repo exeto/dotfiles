@@ -1,5 +1,4 @@
-FROM ubuntu:14.04.3
-MAINTAINER Timofey Dergachev <t@exeto.me>
+FROM ubuntu:16.04
 
 ENV HOME /root
 WORKDIR /root

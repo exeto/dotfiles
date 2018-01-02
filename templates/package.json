@@ -6,19 +6,10 @@
   "repository": "exeto/repo",
   "author": "Timofey Dergachev <t@exeto.me> (https://exeto.me/)",
   "license": "MIT",
-  "engines": {
-    "node": ">=4.2.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-
-  ],
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  }
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {}
 }
