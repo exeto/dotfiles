@@ -15,7 +15,6 @@ brew install go
 brew install git
 brew install mc
 brew install httpie
-brew install tree
 brew install ssh-copy-id
 brew install dos2unix
 brew install recode
@@ -23,9 +22,6 @@ brew install caddy
 brew install siege
 brew install micro
 brew install jq
-
-# Install macOS applications
-brew cask install ngrok
 
 # Remove outdated versions from the cellar.
 brew cleanup
