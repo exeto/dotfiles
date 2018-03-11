@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export EDITOR="micro"
+export DOTFILES=$HOME/dotfiles
+export GOPATH=$HOME/.go
+export GOROOT=/usr/local/opt/go/libexec
+export NODE_ENV=development

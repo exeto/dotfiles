@@ -3,7 +3,7 @@
 # Install oh-my-zsh.
 curl -fsSL https://goo.gl/k58RkX | sh
 
-export DOTFILES=$HOME/.dotfiles
+DOTFILES=$HOME/dotfiles
 
 ln -sin $DOTFILES/oh-my-zsh        $HOME/.oh-my-zsh/custom
 ln -si  $DOTFILES/.editorconfig    $HOME/.editorconfig

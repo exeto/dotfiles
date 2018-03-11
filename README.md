@@ -5,7 +5,9 @@ My configs.
 ## Install
 
 ```bash
-$ git clone https://github.com/exeto/dotfiles.git ~/.dotfiles && ~/.dotfiles/init.sh
+$ git clone https://github.com/exeto/dotfiles.git ~/Projects/dotfiles
+$ ln -s ~/Projects/dotfiles ~/dotfiles
+$ ~/dotfiles/init.sh
 ```
 
 ## Install Homebrew formulae
@@ -13,13 +15,13 @@ $ git clone https://github.com/exeto/dotfiles.git ~/.dotfiles && ~/.dotfiles/ini
 When setting up a new Mac, you may want to install some common [Homebrew](http://brew.sh/) formulae (after installing Homebrew, of course):
 
 ```bash
-$ ~/.dotfiles/brew.sh
+$ ~/dotfiles/brew.sh
 ```
 
 ## Install of useful node packages
 
 ```bash
-$ ~/.dotfiles/yarn.sh
+$ ~/dotfiles/yarn.sh
 ```
 
 ## License

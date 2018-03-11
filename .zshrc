@@ -4,41 +4,11 @@ ZSH_THEME=pure
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 plugins=(git docker brew npm pip gem zsh-syntax-highlighting)
 
-# Aliases
-alias dm="docker-machine"
-alias dc="docker-compose"
-alias rn="react-native"
-alias hfile="defaults write com.apple.finder AppleShowAllFiles false"
-alias sfile="defaults write com.apple.finder AppleShowAllFiles true"
-
-export EDITOR="micro"
-export DOTFILES=$HOME/.dotfiles
-export GOPATH=$HOME/.go
-export GOROOT=/usr/local/opt/go/libexec
-export ANDROID_HOME=${HOME}/Library/Android/sdk
-
-# Path
-export PATH=/usr/local/sbin:$PATH
-export PATH=$DOTFILES/bin:$PATH
-export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-export PATH=${PATH}:${ANDROID_HOME}/tools
-export PATH=${PATH}:${ANDROID_HOME}/platform-tools
-
-# Node
-export NODE_ENV=development
-
-# Colorized man pages
-man () {
-  LESS_TERMCAP_mb=$'\e'"[1;31m" \
-  LESS_TERMCAP_md=$'\e'"[1;31m" \
-  LESS_TERMCAP_me=$'\e'"[0m" \
-  LESS_TERMCAP_se=$'\e'"[0m" \
-  LESS_TERMCAP_so=$'\e'"[1;44;33m" \
-  LESS_TERMCAP_ue=$'\e'"[0m" \
-  LESS_TERMCAP_us=$'\e'"[1;32m" \
-  command man "$@"
-}
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/dotfiles/.{path,exports,aliases,functions,extra}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
 
 source $ZSH/oh-my-zsh.sh
