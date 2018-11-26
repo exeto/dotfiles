@@ -5,7 +5,6 @@ yarn global add \
   n \
   tldr \
   ntl \
-  hicat \
   greenkeeper \
   mrm \
   surge \

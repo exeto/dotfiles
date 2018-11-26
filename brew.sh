@@ -6,7 +6,6 @@ brew update
 # Install more recent versions of some OS X tools.
 brew install python
 brew install python3
-brew install ruby
 
 # Install other useful binaries.
 brew install node
@@ -22,6 +21,7 @@ brew install caddy
 brew install siege
 brew install micro
 brew install jq
+brew install bat
 
 # Remove outdated versions from the cellar.
 brew cleanup
