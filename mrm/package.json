@@ -1,5 +1,5 @@
 {
-  "author": "Timofey Dergachev <t@exeto.me> (https://exeto.me/en)",
+  "author": "Timofey Dergachev <t@exeto.me> (https://exeto.me)",
   "license": "MIT",
   "engines": {
     "node": ">=8"
